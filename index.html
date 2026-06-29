@@ -598,173 +598,77 @@ footer{background:#0a1209;border-top:1px solid rgba(37,61,44,.6);padding:2.25rem
   <!-- TABS -->
   <div class="menu-tabs reveal">
     <button class="menu-tab active" onclick="switchTab('antipasti',this)">Antipasti</button>
-    <button class="menu-tab" onclick="switchTab('riso',this)">Riso & Pasta</button>
+    <button class="menu-tab" onclick="switchTab('primi',this)">Primi</button>
     <button class="menu-tab" onclick="switchTab('secondi',this)">Secondi</button>
-    <button class="menu-tab" onclick="switchTab('speciali',this)">I Nostri Speciali</button>
+    <button class="menu-tab" onclick="switchTab('bbq',this)">BBQ</button>
+    <button class="menu-tab" onclick="switchTab('kimbap',this)">Kimbap & Nigiri</button>
+    <button class="menu-tab" onclick="switchTab('dolci',this)">Dolci & Bevande</button>
   </div>
 
   <!-- ANTIPASTI -->
   <div class="menu-panel active" id="panel-antipasti">
-    <div class="menu-row reveal">
-      <span class="menu-row-num">01</span>
-      <div class="menu-row-body">
-        <span class="menu-row-name">Jin Mandu Maiale</span>
-        <span class="menu-row-desc">Ravioli con maiale, verdure, porro e spaghettini di soia · 5 pezzi</span>
-      </div>
-      <span class="menu-row-price">€ 8</span>
-    </div>
-    <div class="menu-row reveal" style="transition-delay:.05s">
-      <span class="menu-row-num">02</span>
-      <div class="menu-row-body">
-        <span class="menu-row-name">Jin Mandu Manzo e Wagyu</span>
-        <span class="menu-row-desc">Ravioli con manzo, wagyu e verdure grigliati su grasso di wagyu e scaglie di tartufo · 4 pezzi</span>
-      </div>
-      <span class="menu-row-price">€ 12</span>
-    </div>
-    <div class="menu-row reveal" style="transition-delay:.1s">
-      <span class="menu-row-num">03</span>
-      <div class="menu-row-body">
-        <span class="menu-row-name">Yuk Hee</span>
-        <span class="menu-row-desc">Tartara di manzo con tuorlo, sesamo, soia e erba cipollina</span>
-      </div>
-      <span class="menu-row-price">€ 12</span>
-    </div>
-    <div class="menu-row reveal" style="transition-delay:.15s">
-      <span class="menu-row-num">04</span>
-      <div class="menu-row-body">
-        <span class="menu-row-name">Haemul Jeon</span>
-        <span class="menu-row-desc">Pancake con farina frumento, fecola patate, uova, porro, gamberetti e polpa di granchio</span>
-      </div>
-      <span class="menu-row-price">€ 10</span>
-    </div>
-    <div class="menu-row reveal" style="transition-delay:.2s">
-      <span class="menu-row-num">05</span>
-      <div class="menu-row-body">
-        <span class="menu-row-name">Involtini Coreani</span>
-        <span class="menu-row-desc">Verdure miste, kimchi, crauti e zacai · 2 pezzi</span>
-        <div class="menu-row-badges"><span class="badge-hot">🌶 Piccante</span><span class="badge-veg">🌿 Vegetariano</span></div>
-      </div>
-      <span class="menu-row-price">€ 5</span>
-    </div>
-    <div class="menu-row reveal" style="transition-delay:.25s">
-      <span class="menu-row-num">06</span>
-      <div class="menu-row-body">
-        <span class="menu-row-name">Kimchi Jeon</span>
-        <span class="menu-row-desc">Pancake con farina frumento, fecola di patate, uova e kimchi</span>
-        <div class="menu-row-badges"><span class="badge-hot">🌶 Piccante</span><span class="badge-veg">🌿 Vegetariano</span></div>
-      </div>
-      <span class="menu-row-price">€ 9</span>
-    </div>
-    <div class="menu-row reveal" style="transition-delay:.3s">
-      <span class="menu-row-num">07</span>
-      <div class="menu-row-body">
-        <span class="menu-row-name">Kon Chijeu</span>
-        <span class="menu-row-desc">Mais con cheese al forno</span>
-        <div class="menu-row-badges"><span class="badge-veg">🌿 Vegetariano</span></div>
-      </div>
-      <span class="menu-row-price">€ 7</span>
-    </div>
-    <div class="menu-row reveal" style="transition-delay:.35s">
-      <span class="menu-row-num">08</span>
-      <div class="menu-row-body">
-        <span class="menu-row-name">Kimchi</span>
-        <span class="menu-row-desc">Cavolo cinese fermentato piccante</span>
-        <div class="menu-row-badges"><span class="badge-hot">🌶 Piccante</span><span class="badge-veg">🌿 Vegetariano</span></div>
-      </div>
-      <span class="menu-row-price">€ 3,50</span>
-    </div>
-    <div class="menu-cta-row reveal"><a href="https://www.jiayi.it/sento/menu.pdf" target="_blank" rel="noopener" class="btn-outline-gold">Scopri il Menù</a></div>
+    <div class="menu-row reveal"><span class="menu-row-num">05</span><div class="menu-row-body"><span class="menu-row-name">Jin Mandu Manzo e Wagyu 4pz</span><span class="menu-row-desc">Ravioli con manzo, wagyu e verdure grigliati su grasso di wagyu e scaglie di tartufo</span></div><span class="menu-row-price">€ 12</span></div>
+    <div class="menu-row reveal" style="transition-delay:.05s"><span class="menu-row-num">13</span><div class="menu-row-body"><span class="menu-row-name">Wagyu Tataki</span><span class="menu-row-desc">Controfiletto di wagyu scottato con ponzu al tartufo e erba cipollina</span></div><span class="menu-row-price">€ 24</span></div>
+    <div class="menu-row reveal" style="transition-delay:.08s"><span class="menu-row-num">08</span><div class="menu-row-body"><span class="menu-row-name">Kimchi Jeon</span><span class="menu-row-desc">Pancake con farina frumento, fecola patate, porro, uova e kimchi</span><div class="menu-row-badges"><span class="badge-hot">🌶 Piccante</span></div></div><span class="menu-row-price">€ 9</span></div>
+    <div class="menu-row reveal" style="transition-delay:.11s"><span class="menu-row-num">09</span><div class="menu-row-body"><span class="menu-row-name">Haemul Jeon</span><span class="menu-row-desc">Pancake con farina frumento, uova, porro, gamberetti e polpa di granchio</span></div><span class="menu-row-price">€ 10</span></div>
+    <div class="menu-row reveal" style="transition-delay:.14s"><span class="menu-row-num">12</span><div class="menu-row-body"><span class="menu-row-name">Yuk Hee</span><span class="menu-row-desc">Tartara di manzo condita con tuorlo, sesamo, soia e erba cipollina</span></div><span class="menu-row-price">€ 12</span></div>
+    <div class="menu-row reveal" style="transition-delay:.17s"><span class="menu-row-num">06</span><div class="menu-row-body"><span class="menu-row-name">Twigin Mandu 5pz</span><span class="menu-row-desc">Ravioli fritti con carne di maiale, verdure e cipollotto</span></div><span class="menu-row-price">€ 9</span></div>
+    <div class="menu-cta-row reveal"><a href="https://tonyhashiykyk.github.io/sento-ristorante/Korean%20fusion%20cucine%20%26%20bbq-A4-menu.pdf" target="_blank" rel="noopener" class="btn-outline-gold">Scopri il Menù Completo</a></div>
   </div>
 
-  <!-- RISO & PASTA -->
-  <div class="menu-panel" id="panel-riso">
-    <div class="menu-row reveal">
-      <span class="menu-row-num">01</span>
-      <div class="menu-row-body">
-        <span class="menu-row-name">Bibimbap</span>
-        <span class="menu-row-desc">Ciotola di riso con verdure saltate, carne di manzo, uovo occhio di bue e salsa gochujang</span>
-        <div class="menu-row-badges"><span class="badge-hot">🌶 Piccante</span></div>
-      </div>
-      <span class="menu-row-price">€ 14</span>
-    </div>
-    <div class="menu-row reveal" style="transition-delay:.07s">
-      <span class="menu-row-num">02</span>
-      <div class="menu-row-body">
-        <span class="menu-row-name">Tteokbokki</span>
-        <span class="menu-row-desc">Gnocchi di riso gommosi in salsa densa, dolce e piccante a base di peperoncino coreano</span>
-        <div class="menu-row-badges"><span class="badge-hot">🌶 Piccante</span></div>
-      </div>
-      <span class="menu-row-price">€ 12</span>
-    </div>
-    <div class="menu-row reveal" style="transition-delay:.14s">
-      <span class="menu-row-num">03</span>
-      <div class="menu-row-body">
-        <span class="menu-row-name">Kimbap</span>
-        <span class="menu-row-desc">Rotoli di riso con alga nori, verdure e ripieni a scelta, tipico street food coreano</span>
-      </div>
-      <span class="menu-row-price">€ 10</span>
-    </div>
-    <div class="menu-cta-row reveal"><a href="https://www.jiayi.it/sento/menu.pdf" target="_blank" rel="noopener" class="btn-outline-gold">Scopri il Menù</a></div>
+  <!-- PRIMI -->
+  <div class="menu-panel" id="panel-primi">
+    <div class="menu-row reveal"><span class="menu-row-num">18</span><div class="menu-row-body"><span class="menu-row-name">Jajang Mion</span><span class="menu-row-desc">Spaghetti di farina con maiale, cipolle, patate, daikon, arachidi e salsa di fagioli neri</span></div><span class="menu-row-price">€ 10</span></div>
+    <div class="menu-row reveal" style="transition-delay:.05s"><span class="menu-row-num">21</span><div class="menu-row-body"><span class="menu-row-name">Tteokbokki Cheese</span><span class="menu-row-desc">Gnocchi di riso con salsa kimchi, pasta di pesce, formaggio fuso, cipollotto e sesamo</span><div class="menu-row-badges"><span class="badge-hot">🌶 Piccante</span></div></div><span class="menu-row-price">€ 10</span></div>
+    <div class="menu-row reveal" style="transition-delay:.08s"><span class="menu-row-num">22</span><div class="menu-row-body"><span class="menu-row-name">Rabokki</span><span class="menu-row-desc">Gnocchi di riso e ramen con salsa kimchi, pasta di pesce, uova, formaggio e cipollotto</span><div class="menu-row-badges"><span class="badge-hot">🌶 Piccante</span></div></div><span class="menu-row-price">€ 12</span></div>
+    <div class="menu-row reveal" style="transition-delay:.11s"><span class="menu-row-num">23</span><div class="menu-row-body"><span class="menu-row-name">Gungjung Tteokbokki</span><span class="menu-row-desc">Gnocchi di riso saltati con manzo, carote, zucchine, peperoni, salsa di soia e sesamo</span></div><span class="menu-row-price">€ 10</span></div>
+    <div class="menu-row reveal" style="transition-delay:.14s"><span class="menu-row-num">26</span><div class="menu-row-body"><span class="menu-row-name">Japchae Bulgogi</span><span class="menu-row-desc">Spaghetti di patate dolci con straccetti di manzo, peperoni, cipolle, carote e spinaci</span></div><span class="menu-row-price">€ 9</span></div>
+    <div class="menu-row reveal" style="transition-delay:.17s"><span class="menu-row-num">17</span><div class="menu-row-body"><span class="menu-row-name">Kimchi-Jjigae</span><span class="menu-row-desc">Zuppa di kimchi con pancetta di maiale, tofu, funghi enoki e cipollotto — con riso bianco</span><div class="menu-row-badges"><span class="badge-hot">🌶 Piccante</span></div></div><span class="menu-row-price">€ 13</span></div>
+    <div class="menu-cta-row reveal"><a href="https://tonyhashiykyk.github.io/sento-ristorante/Korean%20fusion%20cucine%20%26%20bbq-A4-menu.pdf" target="_blank" rel="noopener" class="btn-outline-gold">Scopri il Menù Completo</a></div>
   </div>
 
   <!-- SECONDI -->
   <div class="menu-panel" id="panel-secondi">
-    <div class="menu-row reveal">
-      <span class="menu-row-num">01</span>
-      <div class="menu-row-body">
-        <span class="menu-row-name">Korean BBQ</span>
-        <span class="menu-row-desc">Carne finemente tagliata e marinata, grigliata al tavolo con salse tradizionali e banchan</span>
-      </div>
-      <span class="menu-row-price">€ 25</span>
-    </div>
-    <div class="menu-row reveal" style="transition-delay:.07s">
-      <span class="menu-row-num">02</span>
-      <div class="menu-row-body">
-        <span class="menu-row-name">Kimchi Jjigae</span>
-        <span class="menu-row-desc">Stufato tradizionale caldo a base di kimchi fermentato, tofu, verdure e carne di maiale</span>
-        <div class="menu-row-badges"><span class="badge-hot">🌶 Piccante</span></div>
-      </div>
-      <span class="menu-row-price">€ 13</span>
-    </div>
-    <div class="menu-row reveal" style="transition-delay:.14s">
-      <span class="menu-row-num">03</span>
-      <div class="menu-row-body">
-        <span class="menu-row-name">Involtini di Manzo</span>
-        <span class="menu-row-desc">Involtini di manzo avvolti con funghi enoki e salsa ai fagioli piccanti · 4 pezzi</span>
-        <div class="menu-row-badges"><span class="badge-hot">🌶 Piccante</span></div>
-      </div>
-      <span class="menu-row-price">€ 8</span>
-    </div>
-    <div class="menu-cta-row reveal"><a href="https://www.jiayi.it/sento/menu.pdf" target="_blank" rel="noopener" class="btn-outline-gold">Scopri il Menù</a></div>
+    <div class="menu-row reveal"><span class="menu-row-num">45</span><div class="menu-row-body"><span class="menu-row-name">Bulgogi Manzo</span><span class="menu-row-desc">Straccetti di manzo marinato saltato con cipolla, carota, cipollotto e funghi</span></div><span class="menu-row-price">€ 12</span></div>
+    <div class="menu-row reveal" style="transition-delay:.05s"><span class="menu-row-num">53</span><div class="menu-row-body"><span class="menu-row-name">Dakganjon Piccante</span><span class="menu-row-desc">Cosce di pollo fritte con salsa gochujang, sesamo e cipollotto</span><div class="menu-row-badges"><span class="badge-hot">🌶 Piccante</span></div></div><span class="menu-row-price">€ 12</span></div>
+    <div class="menu-row reveal" style="transition-delay:.08s"><span class="menu-row-num">55</span><div class="menu-row-body"><span class="menu-row-name">Wigim-Saeu</span><span class="menu-row-desc">Gamberi fritti speciali con piselli di wasabi, pistacchio e salsa piccante al lime</span><div class="menu-row-badges"><span class="badge-hot">🌶 Piccante</span></div></div><span class="menu-row-price">€ 13</span></div>
+    <div class="menu-row reveal" style="transition-delay:.11s"><span class="menu-row-num">50</span><div class="menu-row-body"><span class="menu-row-name">Samgyeopsal</span><span class="menu-row-desc">Pancetta di maiale brasata e grigliata con salsa ai fagioli, lattuga e kimchi</span></div><span class="menu-row-price">€ 13</span></div>
+    <div class="menu-row reveal" style="transition-delay:.14s"><span class="menu-row-num">59</span><div class="menu-row-body"><span class="menu-row-name">Straccetti di Manzo Sale e Pepe</span><span class="menu-row-desc">Straccetti di manzo fritto in pastella saltato con peperoni, cipolla e cipollotto</span></div><span class="menu-row-price">€ 14</span></div>
+    <div class="menu-row reveal" style="transition-delay:.17s"><span class="menu-row-num">58</span><div class="menu-row-body"><span class="menu-row-name">Tangsuyuk</span><span class="menu-row-desc">Maiale fritto in pastella con verdure miste in salsa agrodolce</span></div><span class="menu-row-price">€ 12</span></div>
+    <div class="menu-cta-row reveal"><a href="https://tonyhashiykyk.github.io/sento-ristorante/Korean%20fusion%20cucine%20%26%20bbq-A4-menu.pdf" target="_blank" rel="noopener" class="btn-outline-gold">Scopri il Menù Completo</a></div>
   </div>
 
-  <!-- SPECIALI -->
-  <div class="menu-panel" id="panel-speciali">
-    <div class="menu-row reveal">
-      <span class="menu-row-num">01</span>
-      <div class="menu-row-body">
-        <span class="menu-row-name">Jin Mandu Manzo e Wagyu</span>
-        <span class="menu-row-desc">Ravioli con manzo, wagyu e verdure grigliati su grasso di wagyu e scaglie di tartufo — la nostra firma</span>
-      </div>
-      <span class="menu-row-price">€ 12</span>
-    </div>
-    <div class="menu-row reveal" style="transition-delay:.07s">
-      <span class="menu-row-num">02</span>
-      <div class="menu-row-body">
-        <span class="menu-row-name">Korean BBQ</span>
-        <span class="menu-row-desc">L'esperienza completa: carne marinata grigliata al tavolo con banchan e salse tradizionali</span>
-      </div>
-      <span class="menu-row-price">€ 25</span>
-    </div>
-    <div class="menu-row reveal" style="transition-delay:.14s">
-      <span class="menu-row-num">03</span>
-      <div class="menu-row-body">
-        <span class="menu-row-name">Yuk Hee</span>
-        <span class="menu-row-desc">Tartara di manzo con tuorlo d'uovo, sesamo tostato, salsa di soia e erba cipollina fresca</span>
-      </div>
-      <span class="menu-row-price">€ 12</span>
-    </div>
-    <div class="menu-cta-row reveal"><a href="https://www.jiayi.it/sento/menu.pdf" target="_blank" rel="noopener" class="btn-outline-gold">Scopri il Menù</a></div>
+  <!-- BBQ -->
+  <div class="menu-panel" id="panel-bbq">
+    <div class="menu-row reveal"><span class="menu-row-num">60</span><div class="menu-row-body"><span class="menu-row-name">Yakiniku Wagyu 100gr</span><span class="menu-row-desc">Fettine scelte di wagyu con sale, pepe e salsa di soia, accompagnato con verdure</span></div><span class="menu-row-price">€ 35</span></div>
+    <div class="menu-row reveal" style="transition-delay:.05s"><span class="menu-row-num">65</span><div class="menu-row-body"><span class="menu-row-name">Carne di Manzo Marinato</span><span class="menu-row-desc">Fettine di manzo scelto marinato con salsa ganjang (soia dolce coreana)</span></div><span class="menu-row-price">€ 12</span></div>
+    <div class="menu-row reveal" style="transition-delay:.08s"><span class="menu-row-num">63</span><div class="menu-row-body"><span class="menu-row-name">Pancetta di Maiale Piccante</span><span class="menu-row-desc">Fettine di maiale con salsa gochujang (salsa piccante coreana)</span><div class="menu-row-badges"><span class="badge-hot">🌶 Piccante</span></div></div><span class="menu-row-price">€ 10</span></div>
+    <div class="menu-row reveal" style="transition-delay:.11s"><span class="menu-row-num">70</span><div class="menu-row-body"><span class="menu-row-name">Mix di Carne e Verdure</span><span class="menu-row-desc">Misto di pancetta piccante e manzo con contorno di verdure misto</span><div class="menu-row-badges"><span class="badge-hot">🌶 Piccante</span></div></div><span class="menu-row-price">€ 15</span></div>
+    <div class="menu-row reveal" style="transition-delay:.14s"><span class="menu-row-num">72</span><div class="menu-row-body"><span class="menu-row-name">Capocollo Marinato</span><span class="menu-row-desc">Capocollo marinato con salsa ganjang (soia dolce coreana)</span></div><span class="menu-row-price">€ 11</span></div>
+    <div class="menu-row reveal" style="transition-delay:.17s"><span class="menu-row-num">64</span><div class="menu-row-body"><span class="menu-row-name">Involtini di Pancetta con Funghi 4pz</span><span class="menu-row-desc">Pancetta di maiale avvolta con funghi enoki e salsa ai fagioli</span></div><span class="menu-row-price">€ 7</span></div>
+    <div class="menu-cta-row reveal"><a href="https://tonyhashiykyk.github.io/sento-ristorante/Korean%20fusion%20cucine%20%26%20bbq-A4-menu.pdf" target="_blank" rel="noopener" class="btn-outline-gold">Scopri il Menù Completo</a></div>
+  </div>
+
+  <!-- KIMBAP & NIGIRI -->
+  <div class="menu-panel" id="panel-kimbap">
+    <div class="menu-row reveal"><span class="menu-row-num">36</span><div class="menu-row-body"><span class="menu-row-name">Bulgogi Kimbap</span><span class="menu-row-desc">Riso, alghe, manzo marinato, carote, daikon, spinaci, uova, olio di sesamo e sesamo</span></div><span class="menu-row-price">€ 13</span></div>
+    <div class="menu-row reveal" style="transition-delay:.05s"><span class="menu-row-num">41</span><div class="menu-row-body"><span class="menu-row-name">Wagyu Roll</span><span class="menu-row-desc">Riso, alga, avocado, asparagi in tempura, wagyu scottato, caviale e salsa dello chef</span></div><span class="menu-row-price">€ 26</span></div>
+    <div class="menu-row reveal" style="transition-delay:.08s"><span class="menu-row-num">38</span><div class="menu-row-body"><span class="menu-row-name">Pollo Fritto Kimbap</span><span class="menu-row-desc">Riso, alghe, cosce di pollo fritto marinato, carote, spinaci, uova, maionese e sesamo</span></div><span class="menu-row-price">€ 12</span></div>
+    <div class="menu-row reveal" style="transition-delay:.11s"><span class="menu-row-num">43</span><div class="menu-row-body"><span class="menu-row-name">Nigiri Wagyu Scottato 4pz</span><span class="menu-row-desc">Riso e controfiletto di wagyu in salsa di soia dolce flambè e cipollotto</span></div><span class="menu-row-price">€ 18</span></div>
+    <div class="menu-row reveal" style="transition-delay:.14s"><span class="menu-row-num">44</span><div class="menu-row-body"><span class="menu-row-name">Nigiri Bulgogi Scottato 4pz</span><span class="menu-row-desc">Riso, manzo di black angus marinato flambé e cipollotto</span></div><span class="menu-row-price">€ 10</span></div>
+    <div class="menu-row reveal" style="transition-delay:.17s"><span class="menu-row-num">40</span><div class="menu-row-body"><span class="menu-row-name">Vegetariano Kimbap</span><span class="menu-row-desc">Riso, alghe, carote, daikon, spinaci, uova, cetrioli, olio di sesamo e sesamo</span><div class="menu-row-badges"><span class="badge-veg">🌿 Veg</span></div></div><span class="menu-row-price">€ 11</span></div>
+    <div class="menu-cta-row reveal"><a href="https://tonyhashiykyk.github.io/sento-ristorante/Korean%20fusion%20cucine%20%26%20bbq-A4-menu.pdf" target="_blank" rel="noopener" class="btn-outline-gold">Scopri il Menù Completo</a></div>
+  </div>
+
+  <!-- DOLCI & BEVANDE -->
+  <div class="menu-panel" id="panel-dolci">
+    <div class="menu-row reveal"><span class="menu-row-num">—</span><div class="menu-row-body"><span class="menu-row-name">Tiramisù Scomposto con Lotus</span><span class="menu-row-desc">Disponibile anche nella versione decaffeinato</span></div><span class="menu-row-price">€ 7</span></div>
+    <div class="menu-row reveal" style="transition-delay:.05s"><span class="menu-row-num">—</span><div class="menu-row-body"><span class="menu-row-name">Bonsai Noir</span><span class="menu-row-desc">Cupola di cioccolato, panna cotta al gianduia e crunchy di cioccolato</span></div><span class="menu-row-price">€ 8</span></div>
+    <div class="menu-row reveal" style="transition-delay:.08s"><span class="menu-row-num">—</span><div class="menu-row-body"><span class="menu-row-name">Chapssal Gelato Mochi 2pz</span><span class="menu-row-desc">Gusti al thé verde, cheesecake, fragola, cioccolato</span></div><span class="menu-row-price">€ 5</span></div>
+    <div class="menu-row reveal" style="transition-delay:.11s"><span class="menu-row-num">—</span><div class="menu-row-body"><span class="menu-row-name">Makgeolli</span><span class="menu-row-desc">Vino di riso coreano fermentato, servito in stile tradizionale</span></div><span class="menu-row-price">€ 12</span></div>
+    <div class="menu-row reveal" style="transition-delay:.14s"><span class="menu-row-num">—</span><div class="menu-row-body"><span class="menu-row-name">Soju</span><span class="menu-row-desc">Distillato coreano classico o fruttato (prugna, pesca, uva) · 350ml</span></div><span class="menu-row-price">€ 12</span></div>
+    <div class="menu-row reveal" style="transition-delay:.17s"><span class="menu-row-num">—</span><div class="menu-row-body"><span class="menu-row-name">Seoul Temptation</span><span class="menu-row-desc">Cocktail coreano: soju alla pesca, vodka, martini e lime</span></div><span class="menu-row-price">€ 10</span></div>
+    <div class="menu-cta-row reveal"><a href="https://tonyhashiykyk.github.io/sento-ristorante/Korean%20fusion%20cucine%20%26%20bbq-A4-menu.pdf" target="_blank" rel="noopener" class="btn-outline-gold">Scopri il Menù Completo</a></div>
   </div>
 </section>
 
